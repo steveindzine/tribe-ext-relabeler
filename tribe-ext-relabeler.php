@@ -40,6 +40,16 @@ class Main extends Tribe__Extension {
 	 * }
 	 */
 	protected $label_cache = [];
+	
+	/**
+     * @var Settings
+     */
+    protected $settings;
+
+    /**
+     * @var Tribe__Autoloader
+     */
+    protected $class_loader;
 
 	/**
 	 * Set up the Extension's properties.
